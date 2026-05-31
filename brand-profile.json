@@ -1,0 +1,141 @@
+{
+  "brand": {
+    "name": "Baumann & Co.",
+    "shortName": "Baumann",
+    "founder": "Manuel Baumann",
+    "tagline": "Tu empresa depende de ti. Y eso te está matando.",
+    "essence": "Consultoría que devuelve al fundador su tiempo, control y rentabilidad."
+  },
+  "positioning": {
+    "category": "Consultoría empresarial B2B premium",
+    "differentiator": "Método ORCA® estructurado (Orden / Rentabilidad / Crecimiento / Autonomía) con resultados medibles en 90 días",
+    "competitorReference": "Linear (estética) · McKinsey digital (autoridad) · Basecamp (claridad) · Patagonia (alma humana)",
+    "notLike": "Consultoría corporativa genérica, agencia de marketing, life coach, gurú motivacional"
+  },
+  "audience": {
+    "primary": {
+      "persona": "Diego — Fundador-CEO atrapado",
+      "age": "38-55",
+      "role": "Fundador o CEO de empresa mediana",
+      "industry": "Servicios profesionales, manufactura mediana, retail/distribución",
+      "companySize": "15-80 empleados",
+      "revenue": "$2M-$15M USD anual",
+      "geo": "LATAM principalmente · expansión a mercado anglo",
+      "pain": "Trabaja 60-70h/semana, todo depende de él, miedo a delegar, no puede vacacionar, está agotado",
+      "awareness": "problem-aware, solution-unaware",
+      "objection": "¿Realmente va a funcionar para MI empresa? ¿Cuánto tiempo y cuánto cuesta?"
+    },
+    "secondary": {
+      "persona": "Ana — COO/Gerente operativo de empresa familiar",
+      "role": "Operativo de alto rango buscando ordenar la operación para el dueño",
+      "pain": "El dueño no delega pero todo se rompe cuando intenta hacerlo"
+    }
+  },
+  "voice": {
+    "tone": ["serio", "confiado", "cálido"],
+    "personality": [
+      "Directo sin ser agresivo",
+      "Empático con el dolor del fundador",
+      "Específico con números, no vago",
+      "Conocedor pero no condescendiente",
+      "Latinoamericano sin caer en chabacanería"
+    ],
+    "do": [
+      "Hablar del dolor real con palabras concretas: 'estás atrapado', 'no puedes vacacionar', 'tu empresa depende de ti'",
+      "Usar números específicos: '23h/semana', '40% márgenes', '90 días'",
+      "Usar verbos accionables: 'recupera', 'libera', 'construye'",
+      "Apelar a la transformación personal del fundador, no solo a la empresa",
+      "Ser conciso. Frases cortas, párrafos breves.",
+      "Usar metáforas concretas: 'cuello de botella', 'apagar incendios', 'tableros claros'"
+    ],
+    "dont": [
+      "AI slop: 'transforma', 'potencia', 'descubre cómo', 'soluciones integrales', 'eleva tu negocio', 'lleva al siguiente nivel'",
+      "Jerga corporate vacía: 'sinergia', 'optimización holística', 'paradigmas disruptivos'",
+      "Promesas imposibles: 'duplica tus ventas en 30 días'",
+      "Tono motivacional gurú: 'creé en ti', 'tú puedes', 'el éxito está en tu mente'",
+      "Genéricos: 'mejora tu empresa', 'a la medida', 'soluciones personalizadas'",
+      "Stock photos con handshakes corporativos o gente con laptop sonriendo"
+    ],
+    "exampleVoice": {
+      "good": "Tu equipo decide sin buscarte para cada cosa. Tú vuelves a estrategia. Tu empresa crece sin que tú crezcas hacia adentro.",
+      "bad": "Transforma tu organización con nuestras soluciones integrales que potencian tu crecimiento empresarial."
+    }
+  },
+  "mood": {
+    "adjectives": ["serio", "confiado", "cálido"],
+    "moodboard": {
+      "visualReferences": [
+        "Editorial fashion magazine (tipo Monocle, The Gentlewoman)",
+        "Linear.app dark mode con acentos cálidos",
+        "Bloomberg terminal humanizada",
+        "Maison Margiela minimalismo",
+        "Patagonia annual report tipografía + heritage"
+      ],
+      "feel": "Como sentarse con un consultor senior que entiende tu negocio en 5 minutos, no necesita PowerPoint y te dice exactamente qué hacer.",
+      "notFeel": "Como entrar a una sucursal bancaria, como navegar un sitio de SaaS B2B genérico, como ver un anuncio de coach motivacional."
+    }
+  },
+  "messaging": {
+    "valueProposition": "Devolvemos al fundador 23 horas a la semana en 90 días, sin que la empresa pierda velocidad.",
+    "pillars": [
+      {
+        "name": "Orden",
+        "headline": "Procesos que sostienen la operación sin ti",
+        "what": "Estructuramos procesos y roles para eliminar el ruido operativo y dar visibilidad al estado real del negocio.",
+        "outcome": "Sabes en 5 minutos cómo está tu empresa, no en una reunión de 2 horas."
+      },
+      {
+        "name": "Rentabilidad",
+        "headline": "Vender más no arregla un negocio que no retiene valor",
+        "what": "Optimizamos márgenes operativos y flujo de caja real, no la facturación vanidad.",
+        "outcome": "+40% mejora en márgenes promedio en 6 meses."
+      },
+      {
+        "name": "Crecimiento",
+        "headline": "Sistemas predecibles, no esfuerzos heroicos",
+        "what": "Construimos máquinas de adquisición de clientes que no dependen de tu tiempo.",
+        "outcome": "Cada cliente nuevo suma rentabilidad, no problemas operativos."
+      },
+      {
+        "name": "Autonomía",
+        "headline": "Tu equipo decide. Tú diriges.",
+        "what": "Equipo que opera con tableros claros y decide sin tu presencia constante.",
+        "outcome": "De 60+ horas en operación a 20 horas en estrategia."
+      }
+    ],
+    "keyMetrics": [
+      { "metric": "23h", "context": "Horas semanales recuperadas en promedio por los fundadores que aplican el método ORCA®" },
+      { "metric": "40%", "context": "Mejora promedio en márgenes operativos a los 6 meses" },
+      { "metric": "90d", "context": "Tiempo promedio para que el equipo opere con autonomía estructurada" }
+    ],
+    "primaryCTA": {
+      "label": "Agenda tu diagnóstico gratuito",
+      "subtext": "30 minutos · Sin costo · Sin compromiso",
+      "destination": "https://meetings.hubspot.com/manuel-baumann"
+    },
+    "secondaryCTA": {
+      "label": "Toma el test ORCA®",
+      "subtext": "12 preguntas · 2 minutos · Diagnóstico inmediato",
+      "destination": "/test-fundador-quiz"
+    }
+  },
+  "languages": {
+    "primary": "es-LATAM",
+    "secondary": "en",
+    "notes": "Español neutral LATAM. Evitar regionalismos muy marcados (México vs Argentina vs Colombia). Tono usted/tú depende del contexto — tutear funciona en LATAM moderno B2B."
+  },
+  "visualIdentity": {
+    "logo": {
+      "current": "Baumann&Co. wordmark sans-serif",
+      "treatment": "Mantener wordmark pero refinarlo con tipografía display premium y mejor letter-spacing"
+    },
+    "imageryStyle": [
+      "Fotografía editorial en blanco y negro o sepia desaturado del fundador (no posada, en contexto: oficina real, leyendo, escribiendo)",
+      "Diagrams limpios y minimalistas para el método ORCA® (no infografías corporativas)",
+      "Tipografía como elemento visual hero (composiciones tipográficas de gran formato)",
+      "Sin stock photos, sin ilustraciones tipo Storyset/Undraw, sin gradientes morados",
+      "Texturas sutiles: grain papel, fondos warm-neutral"
+    ],
+    "iconography": "Iconografía custom estilo Phosphor Icons (variant: regular o duotone) — líneas finas, no rellenas, no Material genérico."
+  }
+}

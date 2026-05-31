@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.pnp.cjs
+
+# Next.js build output
+web/.next/
+web/out/
+web/build/
+web/dist/
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env*.local
+.env.production
+.env.development
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# Cache
+.cache/
+.turbo/
+.eslintcache
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Local screenshots (keep before/after for documentation, but ignore working files)
+screenshots/working/
+*.tmp
+
+# CCD / local agents
+.claude/local/
