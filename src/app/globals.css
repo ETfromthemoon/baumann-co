@@ -103,6 +103,45 @@
       opacity: 1;
     }
   }
+
+  /* Aurora — slow orbital motion of 3 layered gradient blobs behind the hero */
+  @keyframes aurora-1 {
+    0%, 100% { transform: translate3d(0%, 0%, 0) scale(1); }
+    33%      { transform: translate3d(20%, -8%, 0) scale(1.15); }
+    66%      { transform: translate3d(-5%, 18%, 0) scale(0.95); }
+  }
+  @keyframes aurora-2 {
+    0%, 100% { transform: translate3d(0%, 0%, 0) scale(1); }
+    33%      { transform: translate3d(-12%, 14%, 0) scale(0.9); }
+    66%      { transform: translate3d(8%, -10%, 0) scale(1.1); }
+  }
+  @keyframes aurora-3 {
+    0%, 100% { transform: translate3d(0%, 0%, 0) scale(1); }
+    50%      { transform: translate3d(10%, 22%, 0) scale(1.2); }
+  }
+}
+
+/* Aurora animation utilities (raw CSS, picked up by Tailwind v4) */
+.animate-aurora-1 {
+  animation: aurora-1 22s ease-in-out infinite;
+  will-change: transform;
+}
+.animate-aurora-2 {
+  animation: aurora-2 28s ease-in-out infinite;
+  will-change: transform;
+}
+.animate-aurora-3 {
+  animation: aurora-3 34s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Reduced motion — disable aurora and decorative loops */
+@media (prefers-reduced-motion: reduce) {
+  .animate-aurora-1,
+  .animate-aurora-2,
+  .animate-aurora-3 {
+    animation: none;
+  }
 }
 
 /*

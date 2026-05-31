@@ -5,6 +5,10 @@ node_modules/
 .pnp.cjs
 
 # Next.js build output
+.next/
+out/
+build/
+dist/
 web/.next/
 web/out/
 web/build/
