@@ -25,20 +25,19 @@ Transformación de un sitio plano corporativo-2018 a una landing premium dark-mo
 ├── screenshots/
 │   ├── before/               Sitio original baumann-co.com
 │   └── after/                Rediseño implementado
-└── web/                      Proyecto Next.js
-    ├── src/
-    │   ├── app/              layout, page, globals
-    │   ├── components/
-    │   │   ├── ui/           shadcn + Magic UI
-    │   │   └── sections/     11 secciones de la landing
-    │   └── lib/              constants (copy) + utils
-    └── package.json
+├── src/
+│   ├── app/                  layout, page, globals
+│   ├── components/
+│   │   ├── ui/               shadcn + Magic UI
+│   │   └── sections/         11 secciones de la landing
+│   └── lib/                  constants (copy) + utils
+├── public/
+└── package.json
 ```
 
 ## Cómo correr
 
 ```bash
-cd web
 npm install
 npm run dev
 ```
@@ -48,7 +47,6 @@ Abre [http://localhost:3000](http://localhost:3000).
 ## Build de producción
 
 ```bash
-cd web
 npm run build
 npm start
 ```
