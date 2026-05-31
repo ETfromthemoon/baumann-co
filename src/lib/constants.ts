@@ -153,7 +153,15 @@ export const BENEFITS = [
   },
 ] as const;
 
-export const METRICS = [
+type Metric = {
+  value: number;
+  suffix: string;
+  prefix?: string;
+  label: string;
+  context: string;
+};
+
+export const METRICS: readonly Metric[] = [
   {
     value: 23,
     suffix: "h",
@@ -173,7 +181,7 @@ export const METRICS = [
     label: "Para sistemas de autonomía",
     context: "tiempo promedio de implementación",
   },
-] as const;
+];
 
 export const STATS_HERO = [
   { value: "+200", label: "Empresas transformadas desde 2018" },
